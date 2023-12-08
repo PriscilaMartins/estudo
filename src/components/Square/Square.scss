@@ -1,0 +1,60 @@
+.body {
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 4px;
+  }
+  
+  .quadrado {
+    width: calc(25% - 20px); /* 25% da largura com um espaçamento entre os quadrados */
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quadrado img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .descricao {
+    margin-top: 10px;
+  }
+  
+  .botoes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .botao {
+    background-color: #fff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .botao-excluir {
+    background-color: #fff;
+  }
+  
+  .botao:hover {
+    opacity: 0.8;
+  }
+  

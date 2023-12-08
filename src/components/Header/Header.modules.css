@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    box-sizing: border-box;
+    height: 44px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    transition: visibility 0.15s ease 0.167s;
+  }
+  .logo{
+    flex-shrink: 0;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+  .headerRow{
+    position: relative;
+    display: flex;
+  }
+  .topPlaceholder{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .root {
+    background-color: rgb(95, 20, 120);
+    color: rgb(255, 255, 255);
+    padding: 0px;
+  }
+  
+  .logoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 8px;
+  }
+  .shyLogoImg {
+    max-height: 26px;
+    max-width: 78px;
+  }

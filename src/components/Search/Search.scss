@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.search-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.search-container form {
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  padding: 10px;
+  margin: 0; /* Remove margens padrão do formulário */
+}
+
+.search-container input {
+  padding: 20px;
+  width: 700px;
+  border: none; /* Remove a borda do input */
+  margin: 0; /* Remove margens padrão do input */
+}
+
+.search-container button {
+  padding: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0; /* Remove margens padrão do botão */
+}
+
+.search-icon {
+  width: 20px; /* Ajuste o tamanho conforme necessário */
+  height: 20px;
+}
